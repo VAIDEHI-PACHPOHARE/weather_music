@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather-Based AI Music</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+    <!-- <script src="./app.js"></script> -->
+    <!-- <script src="./sp.js"></script> -->
+</head>
+<body>
+    <div class="container">
+        <h1>Weather-Based AI Music</h1>
+        <button onclick="getWeather()">Get My Weather</button>
+        <p id="weather-info"></p>
+        <h2>Recommended Song:</h2>
+        <div id="music-player"></div>
+        <button onclick="getWeatherFromSpotify()">Get My Weather & Music</button>
+        <p id="weather-info"></p>
+        <div id="music-player"></div>
+
+        <h2>AI Song Suggestion:</h2>
+        <p id="ai-suggestion"></p>
+        <button onclick="getAISong()">Get AI Song Recommendation</button>
+    </div>
+</body>
+</html>
